@@ -171,6 +171,22 @@ header {
   border-radius: 5px;
 }
 
+.section-do-item-heading {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #1C1C1C;
+  text-align: center;
+}
+.section-do-item-descriptions {
+  font-size: 14px;
+  text-align: center;
+  width: 210px;
+  height: 63px;
+  margin: 15px auto 62px auto;
+}
+
 .section-do-item:hover {
   background: #3172B9;
 }
@@ -189,30 +205,27 @@ header {
   fill-rule: evenodd;
 }
 
-.section-do-item:hover {
+/* .section-do-item:default .cls-1-services, .section-do-item-heading, .section-do-item-descriptions {
+  background: #E5E5E5;
+  fill: #3172b9;
+  color: #1C1C1C;
+} */
+
+.section-do-item:hover .cls-1-services {
   background: #3172B9;
   fill: #ffffff;
 }
 
+.section-do-item:hover .section-do-item-heading {
+  color: #ffffff;
+}
+
+.section-do-item:hover .section-do-item-descriptions {
+  color: #ffffff;
+}
 /* .cls-1-sevices:hover {
   fill: #ffffff;
 } */
-
-.section-do-item-heading {
-  display: block;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 130%;
-  color: #1C1C1C;
-  text-align: center;
-}
-.section-do-item-descriptions {
-  font-size: 14px;
-  text-align: center;
-  width: 210px;
-  height: 63px;
-  margin: 15px auto 62px auto;
-}
 
 
 /* CLIENTS */
@@ -375,6 +388,18 @@ header {
 .footer-social-item {
 }
 .footer-social-link {
+  fill: #000000;
+  stroke: #000000;
 }
+
+.footer-social-link:hover {
+  fill: #71A7E2;
+  stroke: #71A7E2;
+}
+
+.link-twitter:hover {
+  outline: 1px solid #71A7E2;
+}
+
 .footer-social-icon {
 }
