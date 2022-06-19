@@ -250,17 +250,38 @@ header {
 }
 
 .section-clients-testimonial {
+  font-size: 14px;
+  line-height: 180%;
+  margin: 51px 53px 33px 36px;
 }
+.section-clients-list-line {
+  width: 80%;
+  border-bottom: 1px solid #DADADA;
+  opacity: 0.6;
+  margin: 0 auto;
+}
+
 .section-clients-user {
+  display: flex;
+  margin: 28px 32px;
 }
 .section-clients-avatar {
   border-radius: 67px;
 }
+
 .section-clients-user-info {
+  margin: auto 0 auto 17px;
 }
 .section-clients-username {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  color: #1C1C1C;
+
 }
 .section-clients-user-decriptions {
+  font-size: 14px;
+  line-height: 180%;
 }
 
 
@@ -278,8 +299,6 @@ header {
 }
 .section-contacts-list-item {
   flex: 1 1 25%;
-  outline: 1px solid #E4E4E4;
-  border-radius: 5px;
 }
 
 .section-contacts-list-item:not(:last-child) {
@@ -287,11 +306,43 @@ header {
 }
 
 .section-contacts-icon {
+  display: block;
+  width: 100%;
+  margin-bottom: 22px;
+  fill: #1C1C1C;
 }
 .section-contacts-headind {
+  display: block;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  color: #1C1C1C;
+  margin-bottom: 30px;
 }
 .section-contacts-info {
+  width: 60%;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 180%;
 }
+
+.section-contacts-info a {
+  color: #787878;
+}
+
+.section-contacts-info a:hover {
+  color: #71A7E2;
+}
+
+.section-contacts-info a:focus {
+  outline: 1px solid #71A7E2;
+}
+
+.section-contacts-info a:active {
+  color: #0E3B6C;
+}
+
+
 .section-contacts-link {
 }
 .contacts-line {
