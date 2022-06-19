@@ -1,14 +1,18 @@
+<!-- https://www.figma.com/file/G7A1ytt96Hf82Suipaq51N/Lionic?node-id=0%3A1 -->
+<!-- https://necolas.github.io/normalize.css/ нормализация стилей -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Lionic Legal Solution</title>
 </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container heder-container">
       <a href="index.html" class="logo">
         <img src="img/Logo@2x.svg" alt="Lionic Legal Solution" class="logo-img">
       </a>
@@ -34,36 +38,40 @@
           </li>
         </ul>
       </nav>
-      <a href="" class="btn">FREE TRIAL</a>
+      <a href="" class="btn heder-btn">
+        FREE TRIAL
+      </a>
     </div>
   </header>
 
   <main>
     <section class="section-here">
-      <div class="container">
-        <h1 class="section-hero-heading">
-          This is simply a smarter way to make your legal online
-        </h1>
-        <p class="section-hero-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
-        <a href="" class="btn">free 30 day trial</a>
-        <div class="section-hero-btn-description">
-          <span class="section-hero-ssl-icon"></span>
-          SSL secured connection
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="section-hero-heading">
+            This is simply a smarter way to make your legal online
+          </h1>
+          <p class="section-hero-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+          <a href="" class="btn">FREE 30 DAY TRIAL</a>
+          <div class="section-hero-btn-description">
+            <span class="section-hero-ssl-icon"></span>
+            SSL secured connection
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section-do">
       <div class="container">
-        <h2 class="section-heading">
-          What We Do
+        <h2 class="section-heading section-heading-service">
+          Services
         </h2>
         <p class="section-description">
           Lionic guides you on making decisions for all aspects of your end-of-life plans.
         </p>
         <ul class="section-do-list">
           <li class="section-do-item">
-            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="136" height="132" viewbox="0 0 68 66">
+            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="68" height="66" viewbox="0 0 68 66">
               <defs>
                 <style>
                   .cls-1 {
@@ -82,7 +90,7 @@
             </p>
           </li>
           <li class="section-do-item">
-            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="172" height="128" viewbox="0 0 86 64">
+            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="86" height="64" viewbox="0 0 86 64">
               <defs>
                 <style>
                   .cls-1 {
@@ -101,7 +109,7 @@
             </p>
           </li>
           <li class="section-do-item">
-            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewbox="0 0 64 64">
+            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewbox="0 0 64 64">
               <defs>
                 <style>
                   .cls-1 {
@@ -120,7 +128,7 @@
             </p>
           </li>
           <li class="section-do-item">
-            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewbox="0 0 65 65">
+            <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewbox="0 0 65 65">
               <defs>
                 <style>
                   .cls-1 {
@@ -144,59 +152,61 @@
 
     <section class="section-clients">
       <div class="container">
-        <h2 class="section-heading">
-          Our Happy Clients
-        </h2>
-        <ul class="section-clients-list">
-          <li class="section-clients-list-item">
-            <p class="section-clients-testimonial">
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
-            </p>
-            <div class="section-clients-user">
-              <img src="/img/user.svg" alt="user" class="section-clients-avatar">
-              <div class="section-clients-user-info">
-                <div class="section-clients-username">
-                  John Armstrong
-                </div>
-                <div class="section-clients-user-decriptions">
-                  Customer
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="section-clients-list-item">
-            <p class="section-clients-testimonial">
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
-            </p>
-            <div class="section-clients-user">
-              <img src="/img/user.svg" alt="user" class="section-clients-avatar">
-              <div class="section-clients-user-info">
-                <div class="section-clients-username">
-                  Elizabeth Martin
-                </div>
-                <div class="section-clients-user-decriptions">
-                  Customer
+        <div class="container-client-content">
+          <h2 class="section-heading section-heading-client">
+            Clients
+          </h2>
+          <ul class="section-clients-list">
+            <li class="section-clients-list-item">
+              <p class="section-clients-testimonial">
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
+              </p>
+              <div class="section-clients-user">
+                <img src="/img/Rectangle 25.png" alt="user" class="section-clients-avatar">
+                <div class="section-clients-user-info">
+                  <div class="section-clients-username">
+                    John Armstrong
+                  </div>
+                  <div class="section-clients-user-decriptions">
+                    Customer
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="section-clients-list-item">
-            <p class="section-clients-testimonial">
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
-            </p>
-            <div class="section-clients-user">
-              <img src="/img/user.svg" alt="user" class="section-clients-avatar">
-              <div class="section-clients-user-info">
-                <div class="section-clients-username">
-                  Elizabeth Martin
-                </div>
-                <div class="section-clients-user-decriptions">
-                  Customer
+            </li>
+            <li class="section-clients-list-item">
+              <p class="section-clients-testimonial">
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
+              </p>
+              <div class="section-clients-user">
+                <img src="/img/Rectangle 26.png" alt="user" class="section-clients-avatar">
+                <div class="section-clients-user-info">
+                  <div class="section-clients-username">
+                    Elizabeth Martin
+                  </div>
+                  <div class="section-clients-user-decriptions">
+                    Customer
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+            <li class="section-clients-list-item">
+              <p class="section-clients-testimonial">
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
+              </p>
+              <div class="section-clients-user">
+                <img src="/img/Rectangle 27.png" alt="user" class="section-clients-avatar">
+                <div class="section-clients-user-info">
+                  <div class="section-clients-username">
+                    Robin Soutby
+                  </div>
+                  <div class="section-clients-user-decriptions">
+                    Customer
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -255,7 +265,7 @@
   </main>
 
   <footer class="footer">
-    <div class="cotainer">
+    <div class="container">
       <div class="footer-left">
         <a href="index.html" class="footer-logo">
           <img src="img/Logo@2x.svg" alt="Lionic Legal Solution" class="footer-logo-img">

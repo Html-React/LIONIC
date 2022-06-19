@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 130%;
+  color: #1C1C1C;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #787878;
+}
+
+/* Heder */
+
+header {
+  height: 110px;
+  /* width: 1540px;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.heder-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  margin-right: auto;
+  width: 115px;
+  height: 44px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1C1C1C;
+}
+
+.btn {
+  display:inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  background: #3172B9;
+  border-radius: 3px;
+  line-height: 20px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #71A7E2;
+}
+
+.btn:focus {
+  background: #3172B9;
+}
+
+.btn:active {
+  background: #0E3B6C;
+}
+
+.btn:disabled, .btn[disabled] {
+  background: #C4C4C4;
+}
+
+.heder-btn {
+  margin-left: 52px;
+}
+
+/* Hero */
+
+/* .section-here {
+} */
+
+.hero-container {
+  padding-top: 113px;
+  padding-bottom: 134px;
+  /* overflow: 134px; */
+}
+
+.hero-content {
+  max-width: 529px;
+}
+.section-hero-heading {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 130%;
+  margin-bottom: 26px;
+  color: #1C1C1C;
+}
+.section-hero-description {
+  font-size: 16px;
+  line-height: 155%;
+  margin-bottom: 34px;
+}
+.section-hero-btn-description {
+  margin-top: 14px;
+}
+.section-hero-ssl-icon {
+}
+
+/* SERVICES */
+
+.section-do {
+  margin-top: 87px;
+  margin-bottom: 160px;
+
+}
+.section-heading-service {
+  text-align: center;
+}
+.section-description {
+  padding-top:  21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+}
+.section-do-list {
+  display: flex;
+  margin-top: 54px;
+}
+.section-do-item {
+  flex: 1 1 25%;
+  outline: 1px solid #E4E4E4;
+  border-radius: 5px;
+}
+
+.section-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-do-icon {
+  display: block;
+  margin: 61px auto 27px auto;
+}
+
+.section-do-item-heading {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #1C1C1C;
+  text-align: center;
+}
+.section-do-item-descriptions {
+  font-size: 14px;
+  text-align: center;
+  width: 210px;
+  height: 63px;
+  margin: 15px auto 62px auto;
+}
+
+
+/* CLIENTS */
+
+/* .section-clients {
+}
+
+.container-clients {
+} */
+
+.container-client-content {
+  width: 100%;
+  border-top: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 160px;
+
+}
+
+.section-heading-client {
+  padding: 87px 0 42px 0;
+}
+
+.section-clients-list {
+  display: flex;
+}
+
+.section-clients-list-item {
+  flex: 1 1 25%;
+  outline: 1px solid #E4E4E4;
+  border-radius: 5px;
+}
+
+.section-clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-clients-testimonial {
+}
+.section-clients-user {
+}
+.section-clients-avatar {
+  border-radius: 67px;
+}
+.section-clients-user-info {
+}
+.section-clients-username {
+}
+.section-clients-user-decriptions {
+}
+.section-contacts {
+}
+.section-contacts-list {
+}
+.section-contacts-list-item {
+}
+.section-contacts-icon {
+}
+.section-contacts-headind {
+}
+.section-contacts-info {
+}
+.section-contacts-link {
+}
+.footer {
+}
+.footer-left {
+}
+.footer-logo {
+}
+.footer-logo-img {
+}
+.footer-copyright {
+}
+.footer-right {
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-item {
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
+.footer-social-icon {
+}
