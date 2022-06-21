@@ -139,10 +139,23 @@ header {
   line-height: 155%;
   margin-bottom: 34px;
 }
+
+.btn-section {
+  padding: 19px 58px;
+}
+
 .section-hero-btn-description {
   margin-top: 14px;
 }
 .section-hero-ssl-icon {
+  margin: 0 13px 0 40px;
+}
+
+.sections-ssl-text {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 155%;
+  vertical-align: top;
 }
 
 /* SERVICES */
@@ -164,26 +177,34 @@ header {
 .section-do-list {
   display: flex;
   margin-top: 54px;
+  flex-wrap: wrap;
 }
 .section-do-item {
+  max-width: 270px;
+  min-width: 137px;
   flex: 1 1 25%;
   outline: 1px solid #E4E4E4;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .section-do-item-heading {
   display: block;
+  max-width: 210px;
+  min-width: 106.74px;
   font-weight: 600;
   font-size: 20px;
   line-height: 130%;
   color: #1C1C1C;
   text-align: center;
+  margin: 0 auto 0 auto;
 }
 .section-do-item-descriptions {
   font-size: 14px;
   text-align: center;
-  width: 210px;
-  height: 63px;
+  max-width: 210px;
+  min-width: 106.74px;
+  /* height: 63px; */
   margin: 15px auto 62px auto;
 }
 
@@ -191,7 +212,7 @@ header {
   background: #3172B9;
 }
 
-.section-do-item:not(:last-child) {
+.section-do-item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 
@@ -227,6 +248,72 @@ header {
   fill: #ffffff;
 } */
 
+.contacts-line {
+  width: 100%;
+  bottom: 0;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 129px;
+}
+
+/* Articles */
+
+.section-artikles {
+  margin-top: 87px;
+}
+.section-heading-articles {
+  padding-bottom: 42px;
+}
+.section-articles-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+}
+
+.section-articles-list-item {
+  display: flex;
+  flex: 1 1 33%;
+  outline: 1px solid #E4E4E4;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.section-articles-list-item:not(:nth-child(2n)) {
+  margin-right: 30px;
+}
+.selection-articles-img {
+  width: 170px;
+  height: 180px;
+  background-size: auto auto;
+  background-image: url(../img/Rectangle18.png);
+  background-repeat: no-repeat;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.selection-articles-content {
+  margin: 0 30px 0 30px;
+}
+
+.selection-articles-data {
+  display: block;
+  max-width: 210px;
+  font-size: 10px;
+  line-height: 150%;
+  padding-top: 23px;
+}
+.selection-articles-header {
+  display: block;
+  max-width: 210px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #1C1C1C;
+  padding-bottom: 15px;
+}
+.section-articles-testimonial {
+  max-width: 210px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
 
 /* CLIENTS */
 
@@ -250,15 +337,18 @@ header {
 
 .section-clients-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .section-clients-list-item {
-  flex: 1 1 25%;
+  flex: 1 1 33.33%;
+  max-width: 370px;
   outline: 1px solid #E4E4E4;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 
-.section-clients-list-item:not(:last-child) {
+.section-clients-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
@@ -279,13 +369,17 @@ header {
   margin: 28px 32px;
 }
 .section-clients-avatar {
-  border-radius: 67px;
+  width: 67px;
+  height: 67px;
+  border: 2px solid #3172B9;
+  border-radius: 50%;
 }
 
 .section-clients-user-info {
   margin: auto 0 auto 17px;
 }
 .section-clients-username {
+  max-width: 150px;
   font-weight: 600;
   font-size: 17px;
   line-height: 180%;
@@ -293,28 +387,32 @@ header {
 
 }
 .section-clients-user-decriptions {
+  max-width: 150px;
   font-size: 14px;
   line-height: 180%;
 }
-
 
 /* CONTACTS */
 
 .section-contacts {
 }
 
-.section-heading {
+.section-heading-contacts {
   padding-top: 87px;
-  padding-bottom: 100px;
-}
-.section-contacts-list {
-  display: flex;
-}
-.section-contacts-list-item {
-  flex: 1 1 25%;
+  padding-bottom: 111px;
 }
 
-.section-contacts-list-item:not(:last-child) {
+.section-contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-contacts-list-item {
+  flex: 1 1 33.33%;
+  max-width: 370px;
+  margin-bottom: 30px;
+}
+
+.section-contacts-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
@@ -326,6 +424,7 @@ header {
 }
 .section-contacts-headind {
   display: block;
+  width: 60%;
   font-weight: 600;
   font-size: 17px;
   line-height: 180%;
@@ -358,35 +457,72 @@ header {
 
 .section-contacts-link {
 }
-.contacts-line {
-  width: 100%;
-  bottom: 0;
-  border-bottom: 1px solid #DADADA;
-  padding-bottom: 160px;
-  }
+
+/* FOOTER */
 
 .footer {
+  height: 134px;
 }
+
+.container-footer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
 .footer-left {
+  display: flex;
+  align-items: center;
 }
 .footer-logo {
+  width: 115px;
+  height: 44px;
+  margin-right: 25px;
 }
 .footer-logo-img {
 }
 .footer-copyright {
+  font-size: 12px;
+  line-height: 16px;
 }
 .footer-right {
+  display: flex;
 }
 .footer-nav {
 }
 .footer-nav-list {
+  display: flex;
+  align-items: center;
 }
 .footer-nav-item {
 }
-.footer-social-list {
+
+.footer-nav-link {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #787878;
 }
+
+.footer-nav-item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  margin-left: 56px;
+}
+
 .footer-social-item {
 }
+
+.footer-social-item:not(:last-child) {
+  margin-right: 32px;
+}
+
 .footer-social-link {
   fill: #000000;
   stroke: #000000;
@@ -403,3 +539,6 @@ header {
 
 .footer-social-icon {
 }
+
+/* not(:nth-child(3n)) отступ для каждой 3й карточки не работает */
+/* not(:last-child) кроме последнего элемента */
