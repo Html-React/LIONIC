@@ -121,6 +121,29 @@ header {
   font-size: 15px;
   line-height: 20px;
   color: #1C1C1C;
+  padding: 3px;
+}
+
+
+.nav-item.is-active:hover .nav-link {
+  outline: 2px solid #3474BA;
+  color: #1C1C1C;
+  border-bottom: 2px solid #ffffff;
+
+}
+
+.nav-link:hover {
+  outline: 2px solid #3474BA;
+  color: #1C1C1C;
+}
+
+.nav-link:focus {
+  color: #71A7E2;
+}
+
+.nav-link:active {
+  color: #3172B9;
+  border-bottom: 2px solid #3172b9;
 }
 
 .btn {
