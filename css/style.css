@@ -67,7 +67,6 @@ html {
 }
 
 main {
-  max-width: 1540px;
   margin: 0 auto;
 }
 
@@ -75,10 +74,6 @@ main {
 
 header {
   height: 110px;
-  /* width: 1540px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #C4C4C4; */
 }
 
 .container {
@@ -186,8 +181,8 @@ header {
 .section-here {
   margin-left: auto;
   margin-right: auto;
-  background: url('../img/first-bg.jpg') center center no-repeat white;
-  background-size: cover;
+  background: url('../img/first-bg.png') right center no-repeat white;
+  background-size: contain;
   border-top: 1px solid #C4C4C4;
 }
 
