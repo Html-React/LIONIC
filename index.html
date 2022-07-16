@@ -222,7 +222,7 @@
         <ul class="section-clients-list">
           <li class="section-clients-list-item">
             <p class="section-clients-testimonial">
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
             </p>
             <div class="section-clients-list-line"></div>
             <div class="section-clients-user">
@@ -239,7 +239,7 @@
           </li>
           <li class="section-clients-list-item">
             <p class="section-clients-testimonial">
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
             </p>
             <div class="section-clients-list-line"></div>
             <div class="section-clients-user">
@@ -256,7 +256,7 @@
           </li>
           <li class="section-clients-list-item">
             <p class="section-clients-testimonial">
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
             </p>
             <div class="section-clients-list-line"></div>
             <div class="section-clients-user">
@@ -337,6 +337,59 @@
         <!-- <div class="contacts-line"></div> -->
       </div>
     </section>
+
+    <section class="section-form">
+      <div class="container">
+        <h2 class="section-heading section-heading-form">
+          Join us
+        </h2>
+        <p class="form-description">
+          Take control of your paid subscriptions today!
+        </p>
+        <div class="form-center">
+          <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="post" class="section-form-text">
+            <ul class="section-form-list">
+              <li class="section-form-item-left">
+                <input type="text" name="name" placeholder="Name" class="input" required>
+              </li>
+              <li class="section-form-item-left">
+                <input type="email" name="email" placeholder="E-mail" class="input" required>
+              </li>
+              <li class="section-form-item-left">
+                <input type="tel" name="phone" placeholder="Phone" class="input" required>
+              </li>
+              <li class="section-form-item-left">
+                <select name="country" class="input-contry" required>
+                  <option value="" hidden selected>Сountry</option>
+                  <option value="United_Kingdom">United Kingdom</option>
+                  <option value="United_States">United States</option>
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Estonia">Estonia</option>
+                </select>
+              </li>
+            </ul>
+            <ul class="section-form-list-comment">
+              <li class="section-form-item-right">
+                <textarea name="comments" placeholder="Comment" class="comment"></textarea>
+              </li>
+            </ul>
+            <ul class="section-form-list-bottom">
+              <li class="section-form-item-bottom">
+                <button type="submit" class="btn btn-submit">
+                  GET STARTED
+                </button>
+              </li>
+              <li class="section-form-item-bottom buttom-agreement">
+                <input type="checkbox" name="agreement" required><span class="agreement">I agree with the <a href="#" class="agreement-user">user agreement</a></span>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="footer">
@@ -410,10 +463,3 @@
 
 </body>
 </html>
-
-
-<!-- Заголовок: <header>.
-  Навигационное меню: <nav>.
-  Основное содержимое: <main>, с различными подразделами содержимого, представленными элементами <article>, <section> и <div>.
-  Боковая панель: <aside>, обычно располагается внутри <main>.
-  Нижний колонтитул: <footer>. -->

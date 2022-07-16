@@ -103,7 +103,7 @@ header {
 }
 
 .nav-item:not(:last-child) {
-  margin-right: 52px;
+  margin-right: 46px;
 }
 
 .nav-item.is-active .nav-link {
@@ -188,7 +188,7 @@ header {
 
 .hero-container {
   padding-top: 113px;
-  padding-bottom: 134px;
+  padding-bottom: 131px;
   /* overflow: 134px; */
 }
 
@@ -203,6 +203,7 @@ header {
   color: #1C1C1C;
 }
 .section-hero-description {
+  width: 90%;
   font-size: 16px;
   line-height: 155%;
   margin-bottom: 34px;
@@ -216,7 +217,7 @@ header {
   margin-top: 14px;
 }
 .section-hero-ssl-icon {
-  margin: 0 13px 0 40px;
+  margin: 0 9px 0 40px;
 }
 
 .sections-ssl-text {
@@ -282,6 +283,7 @@ header {
 }
 .section-do-item-descriptions {
   font-size: 14px;
+  line-height: 150%;
   text-align: center;
   color: #787878;;
   max-width: 210px;
@@ -436,7 +438,7 @@ header {
 .section-clients {
   margin-top: 87px;
   border-bottom: 1px solid #DADADA;
-  padding-bottom: 129px;
+  padding-bottom: 134px;
 }
 
 .container-clients {
@@ -475,6 +477,7 @@ header {
   font-size: 14px;
   line-height: 180%;
   margin: 51px 53px 33px 36px;
+
 }
 .section-clients-list-line {
   width: 80%;
@@ -492,10 +495,11 @@ header {
   height: 67px;
   border: 2px solid #3172B9;
   border-radius: 50%;
+  margin: 0 11px;
 }
 
 .section-clients-user-info {
-  margin: auto 0 auto 17px;
+  margin: 5px;
 }
 .section-clients-username {
   max-width: 150px;
@@ -515,7 +519,7 @@ header {
 
 .section-contacts {
   border-bottom: 1px solid #DADADA;
-  padding-bottom: 129px;
+  padding-bottom: 97px;
 }
 
 .section-heading-contacts {
@@ -577,6 +581,125 @@ header {
 
 
 .section-contacts-link {
+}
+
+/* FORMS */
+
+.section-form {
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 119px;
+}
+
+.section-heading-form {
+   padding-top: 87px;
+   padding-bottom: 24px;
+   text-align: center;
+}
+.form-description {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.form-center {
+  width: 100%;
+  padding: 0 55px;
+  align-items: center;
+}
+
+.section-form-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+
+}
+
+.section-form-list {
+  display: flex;
+  width: 521px;
+  flex-wrap: wrap;
+  gap: 19px;
+
+}
+
+.section-form-item-left {
+
+}
+
+.input {
+  width: 251px;
+  height: 60px;
+  padding: 15px 28px;
+  padding-bottom: 16px;
+  opacity: 0.6;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+}
+
+
+
+.input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #787878;
+}
+.input-contry {
+  width: 251px;
+  height: 60px;
+  padding: 15px 0 16px 28px;
+  opacity: 0.6;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+
+}
+
+.input-contry::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #787878;
+}
+
+.section-form-list-comment {
+  width: 45%;
+}
+.comment {
+  width: 520px;
+  height: 139px;
+  resize: none;
+  padding: 15px 28px;
+  opacity: 0.6;
+  border: 1px solid #DADADA;
+  border-radius: 20px;
+}
+.btn {
+}
+.btn-submit {
+  flex: 0 0 calc(25% - 15px);
+  padding: 20px 67px;
+  border: 0;
+  border-radius: 30px;
+}
+
+.section-form-list-bottom {
+  margin-left:auto;
+}
+
+.buttom-agreement {
+  margin-top: 3px;
+  padding-left: 13px;
+}
+
+.agreement {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 10px;
+}
+.agreement-user {
 }
 
 /* FOOTER */
@@ -660,6 +783,3 @@ header {
 
 .footer-social-icon {
 }
-
-/* not(:nth-child(3n)) отступ для каждой 3й карточки не работает */
-/* not(:last-child) кроме последнего элемента */
