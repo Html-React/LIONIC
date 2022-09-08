@@ -174,7 +174,7 @@ header {
 
 /** Hero **/
 
-.section-here {
+.section-hero {
   margin-left: auto;
   margin-right: auto;
   background: url('../img/first-bg.png') right center no-repeat white;
@@ -182,16 +182,16 @@ header {
   border-top: 1px solid #C4C4C4;
 }
 
-.hero-container {
+.section-hero__container {
   padding-top: 113px;
   padding-bottom: 131px;
 }
 
-.hero-content {
+.section-hero__content {
   max-width: 529px;
 }
 
-.section-hero-heading {
+.section-hero__heading {
   font-weight: 300;
   font-size: 40px;
   line-height: 130%;
@@ -199,26 +199,26 @@ header {
   color: #1C1C1C;
 }
 
-.section-hero-description {
+.section-hero__description {
   width: 90%;
   font-size: 16px;
   line-height: 155%;
   margin-bottom: 34px;
 }
 
-.btn-section {
+.section-hero__btn {
   padding: 19px 58px;
 }
 
-.section-hero-btn-description {
+.section-hero__btn-description {
   margin-top: 14px;
 }
 
-.section-hero-ssl-icon {
+.section-hero__ssl-icon {
   margin: 0 9px 0 40px;
 }
 
-.sections-ssl-text {
+.section-hero__ssl-text {
   text-transform: uppercase;
   font-size: 11px;
   line-height: 155%;
