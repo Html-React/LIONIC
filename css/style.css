@@ -117,6 +117,7 @@ header {
   line-height: 20px;
   color: #1C1C1C;
   padding: 3px;
+  transition: color .3s ease;
 }
 
 
@@ -128,8 +129,9 @@ header {
 }
 
 .nav-link:hover {
-  outline: 2px solid #3474BA;
-  color: #1C1C1C;
+  color: #3172B9;
+  /* outline: 2px solid #3474BA; */
+  /* color: #1C1C1C; */
 }
 
 .nav-link:focus {
@@ -150,22 +152,23 @@ header {
   line-height: 20px;
   padding: 15px 35px;
   cursor: pointer;
+  transition: background-color .3s ease;
 }
 
 .btn:hover {
-  background: #71A7E2;
+  background-color: #71A7E2;
 }
 
 .btn:focus {
-  background: #3172B9;
+  background-color: #3172B9;
 }
 
 .btn:active {
-  background: #0E3B6C;
+  background-color: #0E3B6C;
 }
 
 .btn:disabled, .btn[disabled] {
-  background: #C4C4C4;
+  background-color: #C4C4C4;
 }
 
 .heder-btn {
@@ -258,6 +261,7 @@ header {
   outline: 1px solid #E4E4E4;
   border-radius: 5px;
   margin-bottom: 30px;
+  transition: background-color .3s ease;
 }
 
 .section-do-item-content {
@@ -307,11 +311,11 @@ header {
 }
 
 .section-do-item:hover {
-  background: #3172B9;
+  background-color: #3172B9;
 }
 
 .section-do-item:hover .cls-1-services {
-  background: #3172B9;
+  background-color: #3172B9;
   fill: #ffffff;
 }
 
@@ -324,11 +328,11 @@ header {
 }
 
 .section-do-item:active {
-  background: #3172B9;
+  background-color: #3172B9;
 }
 
 .section-do-item:active .cls-1-services {
-  background: #3172B9;
+  background-color: #3172B9;
   fill: #ffffff;
 }
 
@@ -379,10 +383,11 @@ header {
 .section-articles-link {
   display: flex;
   color: #787878;
+  transition: background-color .3s ease;
 }
 
 .section-articles-link:hover {
-  background: #3172B9;
+  background-color: #3172B9;
   color: #ffffff;
 }
 
@@ -391,7 +396,7 @@ header {
 }
 
 .section-articles-link:active {
-  background: #0E3B6C;
+  background-color: #0E3B6C;
   color: #ffffff;
 }
 
